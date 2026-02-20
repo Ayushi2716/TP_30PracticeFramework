@@ -28,6 +28,8 @@ public class PaginationTest {
 				if(input.equals(row)) {
 				String price = driver.findElement(By.xpath("//table[@id='productTable']/tbody/tr/td[3]")).getText();
 				System.out.println(price);
+				System.out.println("hiii");
+				
 
 				}
 	
